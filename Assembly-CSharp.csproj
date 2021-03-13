@@ -55,16 +55,16 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\UI\Button.cs" />
-    <Compile Include="Assets\Scripts\UI\NumberInput.cs" />
-    <Compile Include="Assets\Scripts\UI\FunctionInput.cs" />
     <Compile Include="Assets\Scripts\Calculator\Combinator.cs" />
-    <Compile Include="Assets\Scripts\Calculator\Terminal.cs" />
     <Compile Include="Assets\Scripts\Calculator\Functions\Function.cs" />
-    <Compile Include="Assets\Scripts\Calculator\Functions\Addition.cs" />
+    <Compile Include="Assets\Scripts\Calculator\Terminal.cs" />
+    <Compile Include="Assets\Scripts\UI\NumberInput.cs" />
     <Compile Include="Assets\Scripts\Calculator\Functions\Substract.cs" />
-    <Compile Include="Assets\Scripts\Calculator\Functions\Multiply.cs" />
+    <Compile Include="Assets\Scripts\UI\FunctionInput.cs" />
+    <Compile Include="Assets\Scripts\Calculator\Functions\Addition.cs" />
     <Compile Include="Assets\Scripts\Calculator\Functions\Divide.cs" />
+    <Compile Include="Assets\Scripts\UI\Button.cs" />
+    <Compile Include="Assets\Scripts\Calculator\Functions\Multiply.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
